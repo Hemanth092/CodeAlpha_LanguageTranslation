@@ -1,20 +1,21 @@
-# LingoFlow — Language Translation Tool
+# 🌐 LingoFlow – Language Translation Tool
 
-A web-based language translation application developed as part of the CodeAlpha Artificial Intelligence Internship.
+LingoFlow is a web-based language translation application developed as part of the **CodeAlpha Artificial Intelligence Internship**.
 
-# Features
+It allows users to translate text between supported languages through a simple and interactive web interface.
 
-- Translate text between supported languages
-- Select source and target languages
-- Swap languages
-- Copy translated text
-- Text-to-speech functionality
-- Clear input text
-- Character counter
-- Responsive user interface
-- Translation error handling
+## ✨ Features
 
-# Technologies Used
+- 🌍 Multiple language selection
+- 🔄 Swap source and target languages
+- 📋 Copy translated text
+- 🔊 Text-to-speech functionality
+- 🧹 Clear input text
+- 🔢 Character counter
+- 📱 Responsive user interface
+- ⚠️ Basic error handling
+
+## 🛠️ Technologies Used
 
 - Python
 - Flask
@@ -23,20 +24,68 @@ A web-based language translation application developed as part of the CodeAlpha 
 - JavaScript
 - MyMemory Translation API
 
-#Installation and Setup
+## 📂 Project Structure
 
-# Clone the repository
+```text
+CodeAlpha_LanguageTranslation/
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── templates/
+│   └── index.html
+└── static/
+    ├── style.css
+    └── script.js
+```
+
+## 🚀 Installation and Setup
+
+**1. Clone the repository**
+
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Hemanth092/CodeAlpha_LanguageTranslation.git
 cd CodeAlpha_LanguageTranslation
-Project Status
+```
 
-Developed as an internship project. Translation quality and supported language pairs depend on the external translation service.
+**2. Create a virtual environment**
 
-Author
+```bash
+python -m venv venv
+```
 
-Hemanth MD
+**3. Install dependencies**
 
-Internship
+```bash
+python -m pip install -r requirements.txt
+```
 
-CodeAlpha — Artificial Intelligence Internship
+**4. Run the application**
+
+```bash
+python app.py
+```
+
+**5. Open in your browser**
+
+Visit http://127.0.0.1:5000
+
+## 🔌 Translation API
+
+This project uses the MyMemory Translation API to process translation requests. Translation quality and availability depend on the external service.
+
+## 👨‍💻 Author
+
+**Hemanth MD**
+
+GitHub: [Hemanth092](https://github.com/Hemanth092)
+
+## 🎓 Internship
+
+**Organization:** CodeAlpha  
+**Domain:** Artificial Intelligence  
+**Task:** Language Translation Tool
+
+---
+
+⭐ Built with Python, Flask, and JavaScript.
